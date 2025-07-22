@@ -22,24 +22,45 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="font-[EB_Garamond] max-w-6xl m-auto ">
-  <header class="mt-10"> 
+<body class="font-[EB_Garamond] max-w-5xl m-auto ">
+  <header class="mt-10">
+    <!-- start nav menu -->
     <nav class="flex justify-between items-center">
       <img class="max-w-full" src="./images/logo2.png" alt="">
       <div>
         <ul class="flex gap-15">
-          <li><a href="">Home</a></li>
-          <li><a href="">Services <i class="fa-solid fa-chevron-right"></i></a></li>
-          <li><a href="">Cases <i class="fa-solid fa-chevron-right"></i></a></li>
-          <li><a href="">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
-          <li><a href="">Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
-          </ul>
+          <li class="hover:text-[#B68C5A] hover:font-bold"><a href="">Home</a></li>
+          <li class="hover:text-[#B68C5A] hover:font-bold"><a href="">Services <i
+                class="fa-solid fa-chevron-right "></i></a></li>
+          <li class="hover:text-[#B68C5A] hover:font-bold"><a href="">Cases <i
+                class="fa-solid fa-chevron-right"></i></a></li>
+          <li class="hover:text-[#B68C5A] hover:font-bold"><a href="">Blog <i class="fa-solid fa-chevron-right"></i></a>
+          </li>
+          <li class="hover:text-[#B68C5A] hover:font-bold"><a href="">Contact Us <i
+                class="fa-solid fa-chevron-right"></i></a></li>
+        </ul>
       </div>
       <button class="bg-[#B68C5A] text-white p-3.5 rounded-sm">Free Consultation</button>
     </nav>
   </header>
 
-  <main class="font-[EB_Garamond] max-w-6xl m-auto">
+  <main class="font-[EB_Garamond] max-w-5xl m-auto">
+    <!-- Banner Section -->
+    <section>
+      <div class="px-25 py-20 mt-15 text-white text-center bg-cover rounded-sm backdrop-brightness-[1]"
+      style="background-image: url('./images/banner.png');">
+        <h1 class="text-6xl font-bold">We Provide Effective <br>
+        Legal Solutions</h1>
+        <p class="text-[#E7E7E7] mt-5 mb-5">There are many variations of passages of Lorem Ipsum available, but the majority <br>
+        have suffered alteration in some form, by injected humour.</p>
+        <input class="p-3 bg-white text-gray-600 w-80 rounded-sm mr-5"
+        type="search" name="" id="" placeholder="Search your services">
+        <button class="bg-[#B68C5A] text-white font-bold px-7 py-3.5 rounded-sm">Search</button>
+      </div>
+    </section>
+
+
+    <!-- Legal Practice Card Section -->
     <section class="px-10-center mt-10">
       <div class="max-w-6xl mx-auto text-center">
         <h2 class="text-4xl mb-5 font-bold text-gray-[rgb(65, 64, 64)]">The Legal Practice Area</h2>
@@ -123,7 +144,7 @@
     </section>
 
 
-    <!-- form -->
+    <!-- form section-->
     <section class="font-[EB_Garamond] max-w-6xl mb-20">
       <div class="text-center ">
         <h3 class="text-3xl font-bold mb-5">Contact With Us</h3>
@@ -153,7 +174,7 @@
               <img class="mx-auto" src="./images/time.png" alt="">
               <h4 class="text-2xl font-bold p-4">Working Hours</h4>
               <p>Mon-Fri: 9AM to 5PM <br>
-                Sunday: 9AM to 1 P</p>
+                Sunday: 9AM to 1 PM</p>
             </div>
           </div>
           <form class="">
